@@ -1,4 +1,4 @@
-FROM ubuntu/nginx
+FROM nginx:latest
 RUN mkdir -p /d1/d2
 WORKDIR /d1/d2
 RUN touch f1 f2
